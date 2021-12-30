@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 800px;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d335d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.container
+{
+    /* background-color: wheat; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+#searchdiv
+{
+    background-color: #1a508b;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    /* background-color: cornsilk; */
+    box-shadow: 2px 3px 21px rgba(0, 0, 0, 0.26);
+}
+#searchdiv input[type='text']
+{
+    background-color: #346295;
+padding: 13px;
+border: none;
+border-radius: 7px;
+width: 700px;
+color: white;
+outline: none;
+font-size: 20px;
+
+}
+#searchdiv input[type='number']
+{
+    background-color: #346295;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    /* width: 700px; */
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+#btn
+{
+    padding: 10px 20px;
+margin-left: 10px;
+background-color: #0d335d;
+border: none;
+color: wheat;
+font-size: 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.2s ease;
+}
+#btn:hover
+{
+    background-color: #0060ce;
+    
+}
+#card
+{
+    margin-top: 20px;
+    background-color: #1a508b;
+    display: flex;
+    width: 900px;
+    padding: 15px;  
+    border-radius: 7px;
+    box-shadow: 2px 3px 21px rgba(0, 0, 0, 0.45);
+
+}
+#imgdiv img
+{
+    width: 132px;
+    border-radius: 7px;
+    box-shadow: 3px 7px 20px rgba(0,0,0,1);
+}
+#imgdiv
+{
+    margin: 10px;
+} 
+#infodiv 
+{
+    padding-left:  10px;
+}
+#infodiv h2
+{
+    font-size: 40px;
+    display: inline-block;
+}
+#infodiv .title
+{
+    display: flex;
+}
+#infodiv #year
+{
+    margin: 18px 0px 0px 10px;
+}
+#infodiv p
+{
+    margin-bottom: 10px;
+}
+#infodiv #type
+{
+    padding: 2px;
+background-color: #fff3e6;
+color: black;
+display: block;
+width: 55px;
+text-align: center;
+border-radius: 3px;
+}
+#infodiv .papa
+{
+    display: inline-block;
+}
+#ratings
+{
+    display: flex;
+justify-items: baseline;
+/* justify-content: space-evenly; */
+text-align: center;
+}
+#ratings .imdb
+{
+    margin-right: 30px;
+}
+#realdiv
+{
+    margin-top: 30px;
+}
+ #notfound
+{
+    font-size: 3em;
+}
